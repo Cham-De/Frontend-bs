@@ -1,0 +1,172 @@
+.vertical-nav{
+    padding: 0;
+    /*background: rgb(182, 130, 130);*/
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    width: 300px;
+}
+#change_pwd{
+    margin-top: 30px;
+}
+
+
+#nav_bar{
+    float: right;
+    width: 1065px;
+    height: 70px;
+}
+#nav_bar form{
+    margin-left: 50px;
+}
+#btns{
+    max-width: 200px;
+}
+#row-btn{
+    display: flex;
+}
+#tb-cont{
+    margin-left: 450px;
+    margin-top: 70px;
+}
+.content{
+    margin-top: 2rem;
+    color: white;
+}
+#side-list li a{
+    text-decoration: none;
+    /*color: white;*/
+    padding: 1rem;
+}
+#side-list li{
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    color: blue;
+}
+
+.content ul{
+    margin-top: 20px;
+}
+#med{
+    margin-bottom: 100px;
+    margin-left: 1.5rem;
+}
+#active{
+    background: #abdbe3;
+}
+.form-inline{
+    display: flex;
+}
+.form-inline input, button{
+    display: flex;
+    margin-right: 20px;
+}
+#nav_bar i{
+    margin-left: 10px;
+}
+.container{
+    padding: 0;
+    display: flex;
+    grid-gap: 0;
+    margin-left: 400px;
+    margin-top: 4rem;
+    max-width: 800px;
+    align-items: center;
+}
+.container  .col{
+    margin-left: 0;
+    position: relative;
+    
+    border-radius: .3em;
+}
+.container  .col span{
+    margin-left: 0;
+}
+.container  .col button{
+    padding: 1rem 4rem;
+}
+tb{
+    max-width: 500px;
+}
+
+.popup-container-pwd{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.update-modal{
+    padding: 50px;
+    padding-bottom: 30px;
+    margin: auto;
+    max-width: 600px;
+    /*border: 1px solid rgba(131, 10, 10, 0.87);*/
+    background: #FFFFFF;
+    border: 1px solid rgba(222, 221, 221, 0.69);
+    border-radius: 15px;
+}
+.update-modal input[type=text], select{
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.update-modal label, input{
+    display: block;
+}
+.update-modal label{
+    margin-bottom: 20px;
+    color: rgb(133, 134, 134);
+}
+
+.update-modal input{
+    color: black;
+}
+
+.cancel, .submit{
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cancel{
+    border: 2px solid blue;
+    background: none;
+    color: blue;
+    padding: 15px 40px;
+}
+.submit{
+    background: blue;
+    border: none;
+    padding: 18px 45px;
+}
+input[type=submit]{
+    color: #FFFFFF;
+}
+
+.sp-label{
+    margin-left: 90px;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+  }
+
+  .popup-container-pwd.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+#tb button a{
+    color: #FFFFFF;
+}

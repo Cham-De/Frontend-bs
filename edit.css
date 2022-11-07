@@ -1,0 +1,22 @@
+.form-clz{
+    padding: 60px 40px;
+    margin-left: 400px;
+    margin-top: 80px;
+    background: white;
+    border-radius: 15px;
+    max-width: 600px;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 0px rgb(218, 214, 214);
+}
+.form-clz .form-group{
+    padding: 10px 5px;
+}
+.form-clz .form-group label{
+    margin-bottom: 10px;
+}
+
+
+.form-clz button{
+    margin-top: 20px;
+    margin-left: 6px;
+}
