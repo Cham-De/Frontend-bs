@@ -132,14 +132,14 @@ require 'db-con.php';
                         foreach($query as $user){
                             ?>
                                 <tr>
-                                    <th scope="row"><?=$user['ID']; ?></th>
+                                    <td scope="row"><?=$user['ID']; ?></td>
                                     <td><?=$user['FirstName']; ?></td>
                                     <td><?=$user['LastName']; ?></td>
                                     <td><?=$user['Username']; ?></td>
                                     <td>
-                                        <button type="button" class="btn btn-primary" id="edit"><a href="edit.php?id=<? $user['ID'] ;?>" style="text-decoration:none; color:white;">Edit</a></button>
-                                    <form action="crud.php" method="POST" class="d-inline">
-                                        <button type="button" name="delete_user" class="btn btn-danger" value="<?= $user['ID'];?>">Delete</button>
+                                        <button type="button" class="btn btn-primary" name ="update" value ="Update" id="edit"><a href="edit.php" style="text-decoration:none; color:white;">Edit</a></button>
+                                    <form action="del.php" method="POST" class="d-inline">
+                                        <button type="button" name="delete" class="btn btn-danger" value="<?$user['ID'];?>">Delete</button>
                                     </form>
                                     </td> 
                                 </tr>
